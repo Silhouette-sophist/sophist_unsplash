@@ -1,4 +1,4 @@
-package com.example.sophist_unsplash.mapper;
+package com.example.sophist_unsplash.dao.mapper;
 
 import com.example.sophist_unsplash.bean.UnsplashLinks;
 import org.apache.ibatis.annotations.Mapper;

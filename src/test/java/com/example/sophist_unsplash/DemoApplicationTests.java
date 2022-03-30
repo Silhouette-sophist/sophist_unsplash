@@ -1,8 +1,8 @@
 package com.example.sophist_unsplash;
 
 import com.example.sophist_unsplash.bean.UnsplashSearchInfo;
-import com.example.sophist_unsplash.mapper.SearchUnsplashInfoMapper;
-import com.example.sophist_unsplash.mapper.SearchUnsplashPhotoMapper;
+import com.example.sophist_unsplash.dao.mapper.SearchUnsplashInfoMapper;
+import com.example.sophist_unsplash.dao.mapper.SearchUnsplashPhotoMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

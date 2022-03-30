@@ -3,7 +3,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.example.sophist_unsplash.mapper.SearchUnsplashUrlsMapper">
+<mapper namespace="com.example.sophist_unsplash.dao.mapper.SearchUnsplashUrlsMapper">
     <select id="selectAllUnsplashUrls" resultType="com.example.sophist_unsplash.bean.UnsplashUrls">
         SELECT * FROM unsplash_operate_info.search_unsplash_links
     </select>

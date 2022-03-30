@@ -1,7 +1,7 @@
 package com.example.sophist_unsplash.controller;
 
 import com.example.sophist_unsplash.bean.UnsplashSearchInfo;
-import com.example.sophist_unsplash.mapper.*;
+import com.example.sophist_unsplash.dao.mapper.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

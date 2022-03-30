@@ -1,4 +1,4 @@
-package com.example.sophist_unsplash.configure;
+package com.example.sophist_unsplash.bean.configure;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.support.http.WebStatFilter;

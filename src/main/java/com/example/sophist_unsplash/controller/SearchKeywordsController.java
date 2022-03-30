@@ -3,7 +3,7 @@ package com.example.sophist_unsplash.controller;
 import com.example.sophist_unsplash.bean.UnsplashSearchInfo;
 import com.example.sophist_unsplash.dao.SqlSessionProvider;
 import com.example.sophist_unsplash.dao.UnsplashDao;
-import com.example.sophist_unsplash.mapper.SearchUnsplashInfoMapper;
+import com.example.sophist_unsplash.dao.mapper.SearchUnsplashInfoMapper;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;
