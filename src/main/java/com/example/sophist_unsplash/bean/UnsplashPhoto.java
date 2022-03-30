@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 public class UnsplashPhoto {
 
     private String id;
-    private String created_at;
+    private String createdAt;
     private Integer width;
     private Integer height;
     private String color;

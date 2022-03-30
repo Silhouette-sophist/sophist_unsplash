@@ -12,11 +12,11 @@ public class UnsplashUser {
     private String id;
     private String username;
     private String name;
-    private String portfolio_url;
+    private String portfolioUrl;
     private String bio;
     private String location;
-    private Integer total_likes;
-    private Integer total_photos;
-    private Integer total_collection;
+    private Integer totalLikes;
+    private Integer totalPhotos;
+    private Integer totalCollection;
     private String unsplashUserKey;
 }

@@ -14,6 +14,6 @@ public class UnsplashLinks {
     private String likes;
     private String portfolio;
     private String download;
-    private String download_location;
+    private String downloadLocation;
     private String unsplashLinksKey;
 }

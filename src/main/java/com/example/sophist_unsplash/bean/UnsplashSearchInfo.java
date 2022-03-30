@@ -11,5 +11,6 @@ public class UnsplashSearchInfo {
 
     private Integer searchIndex;
     private String keywords;
-    private String searchResultKey;
+    private String searchUploadDate;
+    private String searchResult;
 }
