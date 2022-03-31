@@ -4,6 +4,10 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.example.sophist_unsplash.dao.mapper.SearchUnsplashPhotoMapper">
+    <insert id="insertUnsplashPhoto" parameterType="com.example.sophist_unsplash.bean.UnsplashPhoto">
+        INSERT INTO unsplash_operate_info.search_unsplash_photo(id, created_at, width, height, color, likes, unsplash_urls_key, unsplash_links_key, unsplash_user_key, description, search_result_key)
+        VALUE (#{id}, #{createdAt}, #{width}, #{height}, #{color}, #{likes}, #{unsplashUrlKey}, #{unsplashLinksKey}, #{unsplashUserKey}, #{description}, #{searchResultKey})
+    </insert>
     <select id="selectAllUnsplashPhoto" resultType="com.example.sophist_unsplash.bean.UnsplashSearchInfo">
         SELECT * FROM unsplash_operate_info.search_unsplash_photo
     </select>

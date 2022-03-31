@@ -13,7 +13,9 @@ public interface SearchUnsplashUserMapper {
 
     //选择全部
     List<UnsplashUser> selectAllUnsplashUser();
-    
+
+    int insertUnsplashUser(UnsplashUser unsplashUser);
+
     //根据id选择
     /*UnsplashUser selectUnsplashUserById(int id);
     

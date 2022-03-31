@@ -4,7 +4,11 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.example.sophist_unsplash.dao.mapper.SearchUnsplashUrlsMapper">
+    <insert id="insertUnsplashUrls" parameterType="com.example.sophist_unsplash.bean.UnsplashUrls">
+        INSERT INTO unsplash_operate_info.search_unsplash_urls(thumb, small, medium, regular, large, full, raw, unsplash_urls_key)
+        VALUE (#{thumb}, #{small}, #{medium}, #{regular}, #{large}, #{full}, #{raw}, #{unsplashUrlsKey})
+    </insert>
     <select id="selectAllUnsplashUrls" resultType="com.example.sophist_unsplash.bean.UnsplashUrls">
-        SELECT * FROM unsplash_operate_info.search_unsplash_links
+        SELECT * FROM unsplash_operate_info.search_unsplash_urls
     </select>
 </mapper>

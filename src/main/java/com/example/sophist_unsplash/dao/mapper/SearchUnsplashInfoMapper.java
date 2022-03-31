@@ -14,6 +14,9 @@ public interface SearchUnsplashInfoMapper {
     //选择全部
     List<UnsplashSearchInfo> selectAllUnsplashSearchInfo();
 
+    //添加一个
+    int insertUnsplashSearchInfo(UnsplashSearchInfo unsplashSearchInfo);
+
     //根据id选择
    /* UnsplashSearchInfo selectUnsplashSearchInfoById(int id);
 

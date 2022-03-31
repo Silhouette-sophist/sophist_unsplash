@@ -3,11 +3,12 @@ package com.example.sophist_unsplash.bean;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import java.io.Serializable;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class UnsplashPhoto {
+public class UnsplashPhoto implements Serializable {
 
     private String id;
     private String createdAt;
@@ -20,4 +21,7 @@ public class UnsplashPhoto {
     private String unsplashLinksKey;
     private String unsplashUserKey;
     private String searchResultKey;
+    private UnsplashUrls urls;
+    private UnsplashLinks links;
+    private UnsplashUser user;
 }

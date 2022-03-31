@@ -4,6 +4,9 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.example.sophist_unsplash.dao.mapper.SearchUnsplashInfoMapper">
+    <insert id="insertUnsplashSearchInfo" parameterType="com.example.sophist_unsplash.bean.UnsplashSearchInfo">
+        INSERT INTO unsplash_operate_info.search_info(search_index, keywords, search_upload_date, search_result) VALUES (#{searchIndex}, #{keywords}, #{searchUploadDate}, #{searchResult})
+    </insert>
     <select id="selectAllUnsplashSearchInfo" resultType="com.example.sophist_unsplash.bean.UnsplashSearchInfo">
         SELECT * FROM unsplash_operate_info.search_info
     </select>

@@ -14,6 +14,8 @@ public interface SearchUnsplashLinksMapper {
     //选择全部
     List<UnsplashLinks> selectAllUnsplashLinks();
 
+    int insertUnsplashLinks(UnsplashLinks unsplashLinks);
+
     //根据id选择
     /*UnsplashLinks selectUnsplashLinksById(int id);
 

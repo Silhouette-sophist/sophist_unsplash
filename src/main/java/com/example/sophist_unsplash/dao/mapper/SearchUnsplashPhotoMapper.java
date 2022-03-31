@@ -1,5 +1,6 @@
 package com.example.sophist_unsplash.dao.mapper;
 
+import com.example.sophist_unsplash.bean.UnsplashPhoto;
 import com.example.sophist_unsplash.bean.UnsplashSearchInfo;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
@@ -13,6 +14,8 @@ public interface SearchUnsplashPhotoMapper {
 
     //选择全部
     List<UnsplashSearchInfo> selectAllUnsplashPhoto();
+
+    int insertUnsplashPhoto(UnsplashPhoto unsplashPhoto);
 
     //根据id选择
     /*UnsplashPhoto selectUnsplashPhotoById(int id);

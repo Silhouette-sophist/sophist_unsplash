@@ -14,6 +14,8 @@ public interface SearchUnsplashUrlsMapper {
     //选择全部
     List<UnsplashUrls> selectAllUnsplashUrls();
 
+    int insertUnsplashUrls(UnsplashUrls unsplashUrls);
+
     //根据id选择
     /*UnsplashUrls selectUnsplashUrlsById(int id);
 
